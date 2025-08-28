@@ -11,29 +11,23 @@ import NewArrival from "./components/NewArrival";
 export default function HomePage() {
   return (
     <>
+    <div>
       <TopHeader />
       <MainNav />
       <div className="flex max-w-7xl mx-auto mt-6 px-4">
-        {/* Sidebar */}
-        <div className="hidden lg:block mr-8">
+              <div className="hidden lg:block mr-8">
           <Sidebar />
-        </div>
-
-        {/* Main Content */}
-        <main className="flex-1">
-          {/* Place your homepage sections/components here, e.g. */}
-          {/* <HeroSection /> */}
-          {/* <FlashSale /> */}
-          {/* <BestSellers /> */}
-          {/* <NewArrival /> */}
-          {/* See your design for the content order */}
+        </div>      
+        <main className="flex-1">          
           <HeroSection/>
           <FlashSale/>
           <NewArrival/>
         
         </main>
       </div>
-      <Footer />
+     
+      </div>
+       <Footer />
     </>
   );
 }
