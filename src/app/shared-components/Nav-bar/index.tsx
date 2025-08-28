@@ -1,4 +1,3 @@
-// src/components/Header/MainNav.tsx
 "use client";
 import Link from 'next/link';
 import { useState } from 'react';
@@ -9,12 +8,12 @@ const MainNav = () => {
 
   return (
     <nav className="bg-white shadow-md py-4 px-6 flex items-center justify-between max-w-7xl mx-auto">
-      {/* Logo */}
+      
       <Link href="/" className="text-2xl font-extrabold text-black select-none cursor-pointer">
         Exclusive
       </Link>
       
-      {/* Menu Links (hidden on mobile) */}
+     
       <ul className="hidden md:flex space-x-8 text-gray-700 font-medium">
         <li className="hover:text-red-600 cursor-pointer">Home</li>
         <li className="hover:text-red-600 cursor-pointer">Contact</li>
@@ -22,7 +21,7 @@ const MainNav = () => {
         <li className="hover:text-red-600 cursor-pointer">Sign Up</li>
       </ul>
 
-      {/* Search Bar */}
+    
       <div className="flex items-center space-x-4 flex-grow max-w-lg ml-8 md:ml-0">
         <input
           type="text"
@@ -34,7 +33,7 @@ const MainNav = () => {
         </button>
       </div>
       
-      {/* Icons: Heart and Cart */}
+     
       <div className="flex items-center ml-6 space-x-4">
         <button
           onClick={() => setLiked(!liked)}

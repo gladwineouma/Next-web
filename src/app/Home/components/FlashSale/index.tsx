@@ -36,7 +36,7 @@ const flashSaleProducts: Product[] = [
     oldPrice: 400,
     rating: 4.3,
   },
-  // Add more products as needed
+  
 ];
 
 const FlashSale = () => {

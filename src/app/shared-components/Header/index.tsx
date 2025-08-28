@@ -1,5 +1,3 @@
-// src/components/Header/TopHeader.tsx
-
 import Link from 'next/link';
 
 const TopHeader = () => {
