@@ -3,7 +3,6 @@ import Footer from "../shared-components/Footer";
 import TopHeader from "../shared-components/Header";
 import MainNav from "../shared-components/Nav-bar";
 
-
 const SignUpPage = () => {
   return (
   
@@ -16,11 +15,11 @@ const SignUpPage = () => {
       <div className="max-w-4xl w-full bg-white shadow-lg rounded-lg grid grid-cols-1 md:grid-cols-2 overflow-hidden">
 
     
-        <div className="hidden md:block">
+        <div className="hidden md:block bg-cyan-100">
           <img
-            src="/signup-image.jpg" 
+            src="/Images/onboard.png" 
             alt="Shopping cart and gifts"
-            className="object-cover h-full w-full"
+            className="object-cover h-full w-full "
           />
         </div>
 
@@ -55,7 +54,7 @@ const SignUpPage = () => {
             </Button>
 
             <Button variant="secondary" className="w-full flex items-center justify-center space-x-2">
-              <img src="/google-logo.svg" alt="Google" className="w-5 h-5" />
+              <img src="/Images/Icon-Google.png" alt="Google" className="w-5 h-5" />
               <span>Sign up with Google</span>
             </Button>
           </form>
@@ -74,5 +73,4 @@ const SignUpPage = () => {
    
   );
 };
-
 export default SignUpPage;

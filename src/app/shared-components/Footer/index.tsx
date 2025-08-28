@@ -1,4 +1,4 @@
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram } from 'react-icons/fa';
+import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram, FaPaperPlane } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -9,14 +9,13 @@ const Footer = () => {
           <h3 className="font-bold mb-4 text-lg">Exclusive</h3>
           <p>Subscribe</p>
           <p className="text-gray-400 text-sm my-2">Get 10% off your first order</p>
+          <div className='relative w-full'>
           <input
             type="email"
             placeholder="Enter your email"
-            className="w-full p-2 rounded text-black"
+            className="w-full p-2 pr-10 rounded text-gray-500 border border-white"
           />
-          <button className="mt-2 w-full bg-red-600 py-2 rounded hover:bg-red-700">
-            Subscribe
-          </button>
+          <FaPaperPlane className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400 pointer-events-none" /></div>
         </div>
 
         <div>
@@ -54,15 +53,11 @@ const Footer = () => {
           <div className="flex space-x-4">
             
             <img
-              src="/Images/phone.png"
+              src="/Images/qrcode.png"
               alt="Apple Store"
               className="h-12 cursor-pointer"
             />
-            <img
-              src="/google-play.png"
-              alt="Google Play Store"
-              className="h-12 cursor-pointer"
-            />
+           
           </div>
           <div className="flex space-x-4 text-gray-400 mt-4 text-xl">
             <FaFacebookF className="cursor-pointer hover:text-red-600" />
