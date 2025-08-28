@@ -1,5 +1,3 @@
-// src/components/NewArrival/index.tsx
-
 import React from 'react';
 import ProductCard from '../ProductCard';
 

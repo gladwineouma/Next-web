@@ -1,5 +1,3 @@
-// src/components/HeroSection/index.tsx
-
 import Image from 'next/image';
 
 const HeroSection = () => {
@@ -7,7 +5,7 @@ const HeroSection = () => {
     <section className="max-w-7xl mx-auto mt-10 px-4 flex flex-col md:flex-row items-center gap-6">
       <div className="flex-1 relative w-full h-64 md:h-96 rounded-lg overflow-hidden">
         <Image
-          src="/hero/playstation-sale.jpg" // Replace with your hero image path
+          src="/hero/playstation-sale.jpg"
           alt="PlayStation 5 Sale"
           fill
           style={{ objectFit: 'cover' }}

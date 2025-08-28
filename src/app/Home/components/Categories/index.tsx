@@ -1,5 +1,3 @@
-// src/components/Categories/index.tsx
-
 import React from 'react';
 import CategoryCard from '../CartegoryCard';
 

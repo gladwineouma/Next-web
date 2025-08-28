@@ -15,16 +15,16 @@ const SignUpPage = () => {
      
       <div className="max-w-4xl w-full bg-white shadow-lg rounded-lg grid grid-cols-1 md:grid-cols-2 overflow-hidden">
 
-        {/* Left side: image */}
+    
         <div className="hidden md:block">
           <img
-            src="/signup-image.jpg" // Replace with your signup image path
+            src="/signup-image.jpg" 
             alt="Shopping cart and gifts"
             className="object-cover h-full w-full"
           />
         </div>
 
-        {/* Right side: form */}
+      
         <div className="p-8">
           <h2 className="text-3xl font-semibold mb-6">Create an account</h2>
 

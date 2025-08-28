@@ -1,5 +1,3 @@
-// src/components/Benefit/index.tsx
-
 import { FiTruck, FiHeadphones, FiRefreshCw  } from 'react-icons/fi';
 
 const benefits = [

@@ -11,19 +11,14 @@ import Sidebar from "./shared-components/Sidebar";
 
 const HomePage = () => {
   return (
-    <>
-      
-       <TopHeader />
+      <div>
+      <main>
+      <TopHeader />
       <MainNav />
       <Sidebar />
-      <Footer />
-     
-     
-      
-
-       
-      
-    </>
+      </main>
+      <Footer/>
+    </div>  
   );
 };
 

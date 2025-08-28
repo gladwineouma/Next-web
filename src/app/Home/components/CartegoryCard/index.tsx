@@ -1,5 +1,3 @@
-// src/components/CategoryCard/index.tsx
-
 import React from 'react';
 
 type CategoryCardProps = {

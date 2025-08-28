@@ -1,7 +1,7 @@
 import Link from 'next/link';
 const Sidebar = () => {
   return (
-    <aside className="w-64 bg-white border-r border-gray-200 h-screen p-4 sticky top-0">
+    <aside className="w-64 bg-white border-r border-gray-200">
       <nav className="flex flex-col space-y-4">
         <h3 className="font-bold text-lg mb-4">Categories</h3>
         <Link href="/category/phones" className="text-gray-700 hover:text-red-600 transition">

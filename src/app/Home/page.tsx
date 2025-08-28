@@ -25,9 +25,9 @@ export default function HomePage() {
         
         </main>
       </div>
-     
+      <Footer />
       </div>
-       <Footer />
+   
     </>
   );
 }

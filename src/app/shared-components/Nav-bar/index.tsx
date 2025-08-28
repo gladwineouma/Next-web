@@ -13,15 +13,21 @@ const MainNav = () => {
         Exclusive
       </Link>
       
-     
       <ul className="hidden md:flex space-x-8 text-gray-700 font-medium">
-        <li className="hover:text-red-600 cursor-pointer">Home</li>
-        <li className="hover:text-red-600 cursor-pointer">Contact</li>
-        <li className="hover:text-red-600 cursor-pointer">About</li>
-        <li className="hover:text-red-600 cursor-pointer">Sign Up</li>
+        <li>
+          <Link href="/" className="hover:text-red-600">Home</Link>
+        </li>
+        <li>
+          <Link href="/contact" className="hover:text-red-600">Contact</Link>
+        </li>
+        <li>
+          <Link href="/about" className="hover:text-red-600">About</Link>
+        </li>
+        <li>
+          <Link href="/signup" className="hover:text-red-600">Sign Up</Link>
+        </li>
       </ul>
 
-    
       <div className="flex items-center space-x-4 flex-grow max-w-lg ml-8 md:ml-0">
         <input
           type="text"
@@ -32,8 +38,7 @@ const MainNav = () => {
           <FiSearch size={20} />
         </button>
       </div>
-      
-     
+
       <div className="flex items-center ml-6 space-x-4">
         <button
           onClick={() => setLiked(!liked)}
