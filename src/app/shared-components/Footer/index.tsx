@@ -55,7 +55,7 @@ const Footer = () => {
             <img
               src="/Images/qrcode.png"
               alt="Apple Store"
-              className="h-12 cursor-pointer"
+              className="h-24 w-40 cursor-pointer "
             />
            
           </div>
